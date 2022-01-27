@@ -1,0 +1,22 @@
+{
+  "name": "js-bundle",
+  "version": "1.0.0",
+  "description": "A package used to make Comunica js bundles that are used for applications with the corresponding dart wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "keywords": [
+    "comunica",
+    "bundle"
+  ],
+  "author": "Jesse Wright <jeswr>",
+  "license": "MIT",
+  "dependencies": {
+    "@comunica/actor-init-sparql": "^1.22.3"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
